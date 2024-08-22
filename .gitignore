@@ -1,0 +1,44 @@
+# Ignore virtual environment directories
+.venv/
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore PyCharm/IntelliJ IDEA settings
+.idea/
+
+# Ignore workflow files if you don't want them to be tracked
+.github/
+*.bak
+*.old
+.env
+config/
+# Data Files
+data/
+
+# Testing Tools
+.tox/
+.nox/
+.coverage
